@@ -1,0 +1,168 @@
+/*INFO GENERALI*/
+
+body {
+    line-height: 1.65;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    width: 100%;
+    color: #393d41;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+h1, h3, h4 {
+    color: #25a2c3;
+    padding-bottom: 15px;
+}
+
+h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+}
+
+h2 {
+    color: white;
+    font-size: 1.8rem;
+}
+
+h4 {
+    font-size: 1rem;
+    padding-top: 15px;
+}
+
+/*HEADER*/
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+    width: 100wh;
+}
+
+header img {
+    width: 35vw;
+}
+
+/*NAV*/
+
+nav {
+    background-image: url(../images/banner.jpg) ;
+    height: fit-content;
+    background-size: cover;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-bottom: 20px;
+    background-position: center;
+}
+
+nav a {
+    background-color: #f04c2f;
+    text-decoration: none;
+    color: white;
+    padding: 15px 35px;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+/*MAIN*/
+
+#bianco {
+    text-align: center;
+    padding: 40px 40px 0px 40px
+}
+
+#bianco p {
+    margin-bottom: 40px;
+}
+
+main img {
+    margin-bottom: 40px;
+    border-radius: 50%;
+    width: 80%;
+}
+
+#rosso {
+    text-align: center;
+    background-color: #e22d0e;
+    color: white;
+    padding: 30px;
+    margin-bottom: 40px;
+}
+
+blockquote {
+    font-style: italic;
+}
+
+small {
+    font-size: small;
+}
+
+/*ASIDE*/
+
+aside {
+    padding: 40px;
+}
+
+aside img {
+    width: 100%;
+}
+
+aside div {
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+    border: 1px solid #dee1e3;
+    border-radius: 5px;
+}
+
+aside div p {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: medium;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color: #25a2c3;
+    text-align: center;
+    padding: 40px;
+}
+
+footer a, address {
+    color: #c8e7f0;
+}
+
+footer address {
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+footer p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #c8e7f0;
+}
+
+footer hr {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.fa-envelope-square {
+    color: #ffff;
+}
+
+.fa-phone-square-alt {
+    color: #ffff;
+}
+
+.fa-external-link-square-alt {
+    color: white;
+}
